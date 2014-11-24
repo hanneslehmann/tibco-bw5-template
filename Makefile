@@ -1,5 +1,11 @@
+# Makefile 
+# Created to speed up initialization of a TIBCO BW 5.12 project
+# by Hannes Lehmann
+#
+
 PROJ=${project}
 PROJDIR=
+DESIGNER_BASE=/data/tibco/designer/5.9
 
 run:    
 ifdef PROJ
@@ -16,6 +22,6 @@ else
 endif
 
 launch:
-	cd /data/tibco/designer/5.9/bin/ && /data/tibco/designer/5.9/bin/designer $(CURDIR)/$(PROJ)
+	cd $(DESIGNER_BASE)/bin/ && $(DESIGNER_BASE)/bin/designer $(CURDIR)/$(PROJ)
 	cd $(DIR)
 
