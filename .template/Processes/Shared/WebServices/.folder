@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository:repository xmlns:Repository="http://www.tibco.com/xmlns/repo/types/2002">
+    <folder resourceType="ae.designerfolder" name="WebServices" propLocks="" allowUserToChangeIcon="false" sortContents="false" acceptsResources="true" allowDuplicates="false">
+        <description>The Web Services folder contains WSDL files used by business processes. Typical sub-folders to the Web Services folder are “Abstract” which 
+contain the WSDL files that do not contain the end-point binding and “Concrete” which do. This folder and its sub-folders contain both the WSDL 
+files that describe the services exposed by the current project as well as WSDL files for external services which are invoked by the current project.</description>
+        <fixedChildren/>
+    </folder>
+</Repository:repository>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository:repository xmlns:Repository="http://www.tibco.com/xmlns/repo/types/2002">
+    <folder resourceType="ae.designerfolder" name="Common" propLocks="" allowUserToChangeIcon="false" sortContents="false" acceptsResources="true" allowDuplicates="false">
+        <description>Folder is used to store all non-service related utility functions that are common to your service implementations</description>
+        <fixedChildren/>
+    </folder>
+</Repository:repository>

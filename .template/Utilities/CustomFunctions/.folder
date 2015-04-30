@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository:repository xmlns:Repository="http://www.tibco.com/xmlns/repo/types/2002">
+    <folder resourceType="ae.designerfolder" name="CustomFunctions" propLocks="" allowUserToChangeIcon="false" sortContents="false" acceptsResources="true" allowDuplicates="false">
+        <description>The Custom Function folder contains the class files for custom Java functions. It’s recommended that you have one class file for each project to simplify deployment.</description>
+        <fixedChildren/>
+    </folder>
+</Repository:repository>

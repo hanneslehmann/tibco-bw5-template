@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository:repository xmlns:Repository="http://www.tibco.com/xmlns/repo/types/2002">
+    <folder resourceType="ae.designerfolder" name="Shared" propLocks="" allowUserToChangeIcon="false" sortContents="false" acceptsResources="true" allowDuplicates="false">
+        <description>Shared Resources are typically reusable components such as connections and schema definitions that can be shared by multiple projects.
+These resources might contain design-time libraries. Ensure that all shared resources are kept current in the version control system.</description>
+        <fixedChildren/>
+    </folder>
+</Repository:repository>

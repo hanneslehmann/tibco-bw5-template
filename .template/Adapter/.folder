@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository:repository xmlns:Repository="http://www.tibco.com/xmlns/repo/types/2002">
+    <folder resourceType="ae.designerfolder" name="Adapter" propLocks="" allowUserToChangeIcon="false" sortContents="false" acceptsResources="true" allowDuplicates="false">
+        <description>This folder contains multiple folders specific to adapter configurations within the project. For example, configuration for TIBCO ActiveDatabase Adapter, 
+TIBCO Adapter for Oracle Applications, or TIBCO Adapter for SAP adapter instances should be put in this folder.</description>
+        <fixedChildren/>
+    </folder>
+</Repository:repository>
