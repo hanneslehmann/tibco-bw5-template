@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<project name="initBWProject" default="init" basedir=".">
+
+<property environment="env"/>
+<property name="templatename" value="ProjectTemplate"/>
+
+	<target name="init" >
+
+		<echo message="Initialize project" />
+		<echo message="Copy template project to ${env.BWPROJECT}${line.separator}"/>
+		<!-- copy the template -->
+		<copy todir="${env.BWPROJECT}" overwrite="true">
+			<fileset dir=".template" >
+				<include name="**/*"/>
+			</fileset>
+		</copy>
+		<!-- search & replace "ProjectTemplate" -->
+		<echo message="Configure the project..."/>
+		<replace file="${env.BWPROJECT}/vcrepo.dat" token="${templatename}" value="${env.BWPROJECT}"/>
+		<replace file="${env.BWPROJECT}/.folder" token="${templatename}" value="${env.BWPROJECT}"/>
+		<replace file="${env.BWPROJECT}/defaultVars/defaultVars.substvar" token="${templatename}" value="${env.BWPROJECT}"/>
+		
+	</target>
+
+</project>
