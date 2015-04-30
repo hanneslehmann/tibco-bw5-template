@@ -103,7 +103,7 @@ Description
 What I do with this script is: run it for creating a new BW project. Before you can use it, either you:
 
 + clone the git repo.
-+ put your BW project template into .template. BUT: the project MUST be named "ProjectTemplate" as this will be searched and replaced!
++ put your BW project template into .template. BUT: the original project name (in BW) MUST be "ProjectTemplate" as this will be searched and replaced!
 
 Eventually I will add additional functionality to the script (possibly remove the dependency on the template project).
 
